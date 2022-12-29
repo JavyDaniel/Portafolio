@@ -1,3 +1,4 @@
+/* Inicio */
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)), url(../images/fondo.jpg);
     background-size: cover;
@@ -45,4 +46,95 @@
 }
 .inicio .contenido-banner .redes a:hover{
     background-color: #7736ac;
+}
+/* Sobre mi */
+.sobremi{
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;
+}
+.sobremi .contenido-seccion{
+    max-width: 1500px;
+    margin: auto;
+}
+.sobremi h2{
+    font-size: 48px;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.sobremi p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.sobremi h1{
+    text-transform: capitalize;
+    font-size: 3.7rem;
+    margin: 5px 0px 10px 0px;
+    color: #7736ac;
+}
+.sobremi .fila{
+    display: flex;
+}
+.sobremi .fila .col{
+    width: 50%;
+}
+.sobremi .fila .col h3{
+    font-size: 28px;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+.sobremi .fila .col ul{
+    list-style: none;
+}
+.sobremi .fila .col ul li{
+    margin: 12px 0;
+}
+.sobremi .fila .col ul li strong{
+    display: inline-block;
+    color:#7736ac;
+    width: 150px;
+    font-size: 20px;
+}
+.sobremi .fila .col .contenedor-intereses{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sobremi .fila .col .contenedor-intereses .intereses{
+    width: 130px;
+    height: 100px;
+    background-color: #252A2E;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+.sobremi .fila .col .contenedor-intereses .intereses span{
+    margin: 5px 0px 0px 0;
+}
+.sobremi .fila .col .contenedor-intereses .intereses:hover{
+    background-color:#7736ac;
+}
+.sobremi .fila .col .contenedor-intereses .intereses i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.sobremi button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 60px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+.sobremi button:hover{
+    background-color:#7736ac;
 }
