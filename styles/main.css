@@ -138,3 +138,148 @@
 .sobremi button:hover{
     background-color:#7736ac;
 }
+
+/* Skills */
+.skills{
+    background-color: #1e2326;
+    color: #fff;
+    padding: 0px 20px;
+}
+.skills .contenido-seccion{
+    max-width: 1500px;
+    margin: auto;
+}
+.skills h2{
+    font-size: 48px;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.skills .fila{
+    display: flex;
+}
+.skills .fila .col{
+    width: 50%;
+    padding: 0 20px;
+}
+.skills .fila .col h3{
+    font-size: 28px;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+.skills .skill > span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+.skills .skill .barra-skills{
+    height: 8px;
+    width: 80%;
+    background-color: #131517;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.skills .skill .progreso{
+    background-color:#7736ac;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+}
+.skills .skill .barra-skills span{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color:#7736ac;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;
+}
+
+/* Estas clases se agregaran dinamicamente mediante javascript */
+.skills .skill .java{
+    width: 0%;
+    animation: 2s java forwards;
+}
+@keyframes java {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.skills .skill .python{
+    width: 0%;
+    animation: 2s python forwards;
+}
+@keyframes python {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.skills .skill .c{
+    width: 0%;
+    animation: 2s c forwards;
+}
+@keyframes c {
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+.skills .skill .html{
+    width: 0%;
+    animation: 2s html forwards;
+}
+@keyframes html {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+.skills .skill .sql{
+    width: 0%;
+    animation: 2s sql forwards;
+}
+@keyframes sql {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+
+.skills .skill .resolucion{
+    width: 0%;
+    animation: 2s resolucion forwards;
+}
+@keyframes resolucion {
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+.skills .skill .analisis{
+    width: 0%;
+    animation: 2s analisis forwards;
+}
+@keyframes analisis {
+    0%{width: 0%;}
+    100%{width: 95%;}
+}
+.skills .skill .comunicacion{
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.skills .skill .administracion{
+    width: 0%;
+    animation: 2s administracion forwards;
+}
+@keyframes administracion {
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+.skills .skill .proactividad{
+    width: 0%;
+    animation: 2s proactividad forwards;
+}
+@keyframes proactividad {
+    0%{width: 0%;}
+    100%{width: 100%;}
+}
