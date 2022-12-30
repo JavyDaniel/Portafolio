@@ -122,7 +122,7 @@
     font-size: 30px;
     margin-bottom: 10px;
 }
-.sobremi button{
+.curriculum button{
     cursor: pointer;
     background-color: transparent;
     border: 2px solid #fff;
@@ -135,7 +135,7 @@
     position: relative;
     z-index: 10;
 }
-.sobremi button:hover{
+.curriculum button:hover{
     background-color:#7736ac;
 }
 
@@ -282,4 +282,139 @@
 @keyframes proactividad {
     0%{width: 0%;}
     100%{width: 100%;}
+}
+/* Seccion CV */
+.curriculum{
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;
+}
+.scurriculum .contenido-seccion{
+    max-width: 1500px;
+    margin: auto;
+}
+.curriculum h2{
+    font-size: 48px;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.curriculum .fila{
+    display: flex;
+    justify-content: space-between;
+}
+.curriculum .fila .col-izq{
+    width: 50%;
+    padding: 0 20px;
+}
+.curriculum .fila .col-der{
+    width: 50%;
+    padding: 0 20px;
+}
+.curriculum .fila .col-izq h3{
+    font-size: 28px;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+.curriculum .fila .col-der h3{
+    font-size: 28px;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+.curriculum .fila .col-izq{
+    border-right: 2px solid #252A2E;
+}
+.curriculum .fila .col-der{
+    border-left: 2px solid #252A2E;
+}
+.curriculum .fila .item-izq{
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #252A2E;
+    position: relative;
+}
+.curriculum .fila .item-der{
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #252A2E;
+    position: relative;
+}
+.curriculum .fila .item-izq h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.curriculum .fila .item-der h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.curriculum .fila .item-izq .casa{
+    color:#7736ac;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+.curriculum .fila .item-der .casa{
+    color:#7736ac;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+.curriculum .fila .item-izq .fecha{
+    display: block;
+    color: #7736ac;
+    margin-bottom: 10px;
+}
+.curriculum .fila .item-der .fecha{
+    display: block;
+    color: #7736ac;
+    margin-bottom: 10px;
+}
+.curriculum .fila p{
+    line-height: 24px;
+}
+.curriculum .fila .item-izq{
+    border-right: 2px solid #7736ac;
+    margin-right: 20px;
+}
+.curriculum .fila .item-der{
+    border-left: 2px solid #7736ac;
+    margin-left: 20px;
+}
+.curriculum .fila .item-izq .conectori{
+    height: 2px;
+    background-color: #7736ac;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    right: -47px;
+    z-index: 5;
+}
+.curriculum .fila .item-izq .conectori .circuloi{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #7736ac;
+    float: right;
+    position: relative;
+    bottom: 4px;
+}
+.curriculum .fila .item-der .conectord{
+    height: 2px;
+    background-color: #7736ac;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    left: -47px;
+    z-index: 5;
+}
+.curriculum .fila .item-der .conectord .circulod{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #7736ac;
+    float: left;
+    position: relative;
+    bottom: 4px;
 }
